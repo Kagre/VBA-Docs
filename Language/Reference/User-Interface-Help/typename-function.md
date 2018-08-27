@@ -11,12 +11,17 @@ ms.date: 04/27/2018
 
 # TypeName Function
 
-Returns a  **String** that provides information about a [variable](../../Glossary/vbe-glossary.md#variable).</br></br>
+Returns a **String** that provides information about a [variable](../../Glossary/vbe-glossary.md#variable).
+
 ## Syntax
-**TypeName(**_varname_**)**</br>
+
+**TypeName(**_varname_**)**
+
 The required _varname_ [argument](../../Glossary/vbe-glossary.md#argument) is a [Variant](../../Glossary/vbe-glossary.md#variant-data-type) containing any variable except a variable of a [user-defined type](../../Glossary/vbe-glossary.md#user-defined-type).
+
 ## Remarks
-The string returned by **TypeName** can be any one of the following:</br>
+
+The string returned by **TypeName** can be any one of the following:
 
 |**String returned**|**Variable**|
 |:-----|:-----|
@@ -38,13 +43,11 @@ The string returned by **TypeName** can be any one of the following:</br>
 |Unknown|An object whose type is unknown|
 |**Nothing**|Object variable that doesn't refer to an object|
 
-<br>
-If  _varname_ is an [array](../../Glossary/vbe-glossary.md#array), the returned string can be any one of the possible returned strings (or  **Variant**) with empty parentheses appended. For example, if _varname_ is an array of integers, **TypeName** returns `"Integer()`".
+If _varname_ is an [array](../../Glossary/vbe-glossary.md#array), the returned string can be any one of the possible returned strings (or **Variant**) with empty parentheses appended. For example, if _varname_ is an array of integers, **TypeName** returns `"Integer()"`.
 
 ## Example
 
 This example uses the **TypeName** function to return information about a variable.
-
 
 ```vb
 ' Declare variables.
@@ -56,7 +59,4 @@ MyType = TypeName(IntVar)    ' Returns "Integer".
 MyType = TypeName(CurVar)    ' Returns "Currency".
 MyType = TypeName(NullVar)    ' Returns "Null".
 MyType = TypeName(ArrayVar)    ' Returns "Integer()".
-
 ```
-
-

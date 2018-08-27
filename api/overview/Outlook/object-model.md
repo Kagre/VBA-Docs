@@ -1,12 +1,13 @@
 ---
-title: Object model (Outlook)
+title: Outlook object model for Visual Basic for Applications (VBA)
+description: This section of the Outlook VBA Reference contains documentation for all the objects, properties, methods, and events contained in the Outlook object model.
 ms.prod: outlook
 ms.assetid: 73221b13-d8d8-99b8-3394-b95dbbfd5ddc
 ms.date: 06/08/2017
 ---
 
 
-# Object model (Outlook)
+# Object model (Outlook) 
 
 This section of the Outlook VBA Reference contains documentation for all the objects, properties, methods, and events contained in the Outlook object model.
 

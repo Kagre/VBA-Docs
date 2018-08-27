@@ -14,15 +14,10 @@ ms.date: 06/08/2017
 
 
 Returns or sets a value indicating whether a command button is the Cancel button on a form.
-
-## Syntax
-
-_object_. **Cancel** [= _Boolean_ ]
 The  **Cancel** property syntax has these parts:
 
 
 |**Part**|**Description**|
-|:-----|:-----|
 | _object_|Required. A valid object.|
 | _Boolean_|Optional. Whether the object is the Cancel button.|
 

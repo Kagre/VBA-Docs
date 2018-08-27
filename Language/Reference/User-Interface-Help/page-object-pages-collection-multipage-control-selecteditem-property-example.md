@@ -64,7 +64,11 @@ Private Sub UserForm_Initialize()
  'Use SelectedItem Property 
  MultiPage1.Value = i 
  MsgBox "MultiPage1.SelectedItem.Caption = " _ 
+<<<<<<< HEAD
+ &; MultiPage1.SelectedItem.Caption 
+=======
  & MultiPage1.SelectedItem.Caption 
+>>>>>>> master
  Next i 
 End Sub
 ```

@@ -1,12 +1,13 @@
 ---
-title: Object model (PowerPoint)
+title: PowerPoint object model for Visual Basic for Applications (VBA)
+description: This section of the PowerPoint VBA Reference contains documentation for all the objects, properties, methods, and events contained in the PowerPoint object model.
 ms.prod: powerpoint
 ms.assetid: 00acd64a-5896-0459-39af-98df2849849e
 ms.date: 06/08/2017
 ---
 
 
-# Object model (PowerPoint)
+# Object model (PowerPoint) 
 
 This section of the PowerPoint VBA Reference contains documentation for all the objects, properties, methods, and events contained in the PowerPoint object model.
 

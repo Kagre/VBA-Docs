@@ -11,15 +11,13 @@ ms.date: 06/08/2017
 
 # Weekday Function
 
-
-
 Returns a  **Variant** (**Integer**) containing a whole number representing the day of the week.
 
 ## Syntax
 
-**Weekday(**_date_, [ **_firstdayofweek_** ] **)**
-The  **Weekday** function syntax has these[named arguments](../../Glossary/vbe-glossary.md#named-argument):
+**Weekday**(_date_, [ **_firstdayofweek_** ])
 
+The **Weekday** function syntax has these [named arguments](../../Glossary/vbe-glossary.md#named-argument):
 
 |**Part**|**Description**|
 |:-----|:-----|
@@ -27,8 +25,8 @@ The  **Weekday** function syntax has these[named arguments](../../Glossary/vbe-g
 |**_firstdayofweek_**|Optional. A [constant](../../Glossary/vbe-glossary.md#constant) that specifies the first day of the week. If not specified, **vbSunday** is assumed.|
 
  **Settings**
-The  **_firstdayofweek_** argument has these settings:
 
+The **_firstdayofweek_** argument has these settings:
 
 |**Constant**|**Value**|**Description**|
 |:-----|:-----|:-----|
@@ -44,7 +42,6 @@ The  **_firstdayofweek_** argument has these settings:
  **Return Values**
 The  **Weekday** function can return any of these values:
 
-
 |**Constant**|**Value**|**Description**|
 |:-----|:-----|:-----|
 |**vbSunday**|1|Sunday|
@@ -57,20 +54,15 @@ The  **Weekday** function can return any of these values:
 
 ## Remarks
 
-If the  **Calendar** property setting is Gregorian, the returned integer represents the Gregorian day of the week for the date argument. If the calendar is Hijri, the returned integer represents the Hijri day of the week for the date argument. For Hijri dates, the argument number is any numeric expression that can represent a date and/or time from 1/1/100 (Gregorian Aug 2, 718) through 4/3/9666 (Gregorian Dec 31, 9999).
+If the **Calendar** property setting is Gregorian, the returned integer represents the Gregorian day of the week for the date argument. If the calendar is Hijri, the returned integer represents the Hijri day of the week for the date argument. For Hijri dates, the argument number is any numeric expression that can represent a date and/or time from 1/1/100 (Gregorian Aug 2, 718) through 4/3/9666 (Gregorian Dec 31, 9999).
 
 ## Example
 
-This example uses the  **Weekday** function to obtain the day of the week from a specified date.
-
+This example uses the **Weekday** function to obtain the day of the week from a specified date.
 
 ```vb
 Dim MyDate, MyWeekDay
 MyDate = #February 12, 1969#    ' Assign a date.
-MyWeekDay = Weekday(MyDate)    ' MyWeekDay contains 4 because 
+MyWeekDay = Weekday(MyDate)    ' MyWeekDay contains 4 because
     ' MyDate represents a Wednesday.
-
-
 ```
-
-

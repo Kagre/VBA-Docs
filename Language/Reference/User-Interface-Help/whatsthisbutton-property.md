@@ -13,22 +13,16 @@ ms.date: 06/08/2017
 
 # WhatsThisButton Property
 
-
-
 Returns a [Boolean](../../Glossary/vbe-glossary.md#boolean-data-type) value that determines whether the **What's This** button appears on the title bar of a **UserForm** object. Read-only at[run time](../../Glossary/vbe-glossary.md#run-time). This property does not apply to the Macintosh.
 
 ## Remarks
 
-The settings for the  **WhatsThisButton** property are:
-
+The settings for the **WhatsThisButton** property are:
 
 |**Setting**|**Description**|
 |:-----|:-----|
 |**True**|Turns on display of the  **What's This Help** button.|
 |**False**|(Default) Turns off display of the  **What's This Help** button.|
 
-
-## Remarks
-
-The  **WhatsThisHelp** property must be **True** for the **WhatsThisButton** property to be **True**.
-
+> ![Note](../../../images/note.gif) Note
+> The  **WhatsThisHelp** property must be **True** for the **WhatsThisButton** property to be **True**.

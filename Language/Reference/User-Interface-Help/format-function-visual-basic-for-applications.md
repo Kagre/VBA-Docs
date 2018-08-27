@@ -138,10 +138,6 @@ A user-defined format [expression](../../Glossary/vbe-glossary.md#expression) fo
 |Three sections|The first section applies to positive values, the second to negative values, and the third to zeros.|
 |Four sections|The first section applies to positive values, the second to negative values, the third to zeros, and the fourth to [Null](../../Glossary/vbe-glossary.md#null) values.|
 
-The following example has two sections: the first defines the format for positive values and zeros; the second section defines the format for negative values.
-
-
-
 ```vb
 "$#,##0;($#,##0)"
 ```
@@ -163,7 +159,8 @@ A format [expression](../../Glossary/vbe-glossary.md#expression) for strings can
 |One section only|The format applies to all string data.|
 |Two sections|The first section applies to string data, the second to [Null](../../Glossary/vbe-glossary.md#null) values and zero-length strings ("").|
 
- **Named Date/Time Formats (Format Function)**
+
+**Named Date/Time Formats (Format Function)**
 The following table identifies the predefined date and time format names:
 
 
@@ -211,7 +208,7 @@ The following table identifies characters you can use to create user-defined dat
 |||
 |:-----|:-----|
 |**Character**|**Description**|
-|(**:**)|Time separator. In some [locales](../../Glossary/vbe-glossary.md#locale), other characters may be used to represent the time separator. The time separator separates hours, minutes, and seconds when time values are formatted. The actual character used as the time separator in formatted output is determined by your system settings.|
+|Time separator. In some [locales](../../Glossary/vbe-glossary.md#locale), other characters may be used to represent the time separator. The time separator separates hours, minutes, and seconds when time values are formatted. The actual character used as the time separator in formatted output is determined by your system settings.|
 |(**/**)|[Date separator](../../Glossary/vbe-glossary.md#date-separators). In some locales, other characters may be used to represent the date separator. The date separator separates the day, month, and year when date values are formatted. The actual character used as the date separator in formatted output is determined by your system settings.|
 |c|Display the date as  `ddddd` and display the time as `ttttt`, in that order. Display only date information if there is no fractional part to the date serial number; display only time information if there is no integer portion.|
 |d|Display the day as a number without a leading zero (1 - 31).|
@@ -245,7 +242,7 @@ The following table identifies characters you can use to create user-defined dat
 |a/p|Use the 12-hour clock and display a lowercase A with any hour before noon; display a lowercase P with any hour between noon and 11:59 P.M.|
 |AMPM|Use the 12-hour clock and display the AM [string literal](../../Glossary/vbe-glossary.md#string-literal) as defined by your system with any hour before noon; display the PM string literal as defined by your system with any hour between noon and 11:59 P.M. AMPM can be either uppercase or lowercase, but the case of the string displayed matches the string as defined by your system settings. The default format is AM/PM.|
 
- **User-Defined Numeric Formats (Format Function)**
+**User-Defined Numeric Formats (Format Function)**
 The following table identifies characters you can use to create user-defined number formats:
 
 |||
@@ -263,4 +260,5 @@ The following table identifies characters you can use to create user-defined num
 |**- + $** ( )|Display a literal character. To display a character other than one of those listed, precede it with a backslash (\) or enclose it in double quotation marks (" ").|
 |(**\**)|Display the next character in the format string. To display a character that has special meaning as a literal character, precede it with a backslash (\). The backslash itself isn't displayed. Using a backslash is the same as enclosing the next character in double quotation marks. To display a backslash, use two backslashes (\\). Examples of characters that can't be displayed as literal characters are the date-formatting and time-formatting characters (a, c, d, h, m, n, p, q, s, t, w, y, / and :), the numeric-formatting characters (#, 0, %, E, e, comma, and period), and the string-formatting characters (@, &;, <, >, and !).|
 |("ABC")|Display the string inside the double quotation marks (" "). To include a string in  **_format_** from within code, you must use **Chr(** 34 **)** to enclose the text (34 is the[character code](../../Glossary/vbe-glossary.md#character-code) for a quotation mark (")).|
+
 

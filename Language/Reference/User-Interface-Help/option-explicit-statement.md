@@ -5,7 +5,7 @@ f1_keywords:
 - vblr6.chm1008808
 ms.prod: office
 ms.assetid: f7871e28-9577-740b-e887-1109f52be30e
-ms.date: 08/24/2018
+ms.date: 06/08/2017
 ---
 
 
@@ -23,11 +23,10 @@ If used, the **Option Explicit** statement must appear in a module before any [p
 
 When **Option Explicit** appears in a module, you must explicitly declare all variables using the **Dim**, **Private**, **Public**, **ReDim**, or **Static** statements. If you attempt to use an undeclared variable name, an error occurs at [compile time](../../Glossary/vbe-glossary.md#compile-time).
 
-If you don't use the  **Option Explicit** statement, all undeclared variables are of **Variant** type unless the default type is otherwise specified with a **Def**_type_ statement.
+If you don't use the **Option Explicit** statement, all undeclared variables are of **Variant** type unless the default type is otherwise specified with a **Def**_type_ statement.
 
 > [!NOTE]
-> Use  **Option Explicit** to avoid incorrectly typing the name of an existing variable or to avoid confusion in code where the [scope](../../Glossary/vbe-glossary.md#scope) of the variable is not clear.
-
+> Use **Option Explicit** to avoid incorrectly typing the name of an existing variable or to avoid confusion in code where the [scope](../../Glossary/vbe-glossary.md#scope) of the variable is not clear.
 
 ## Example
 

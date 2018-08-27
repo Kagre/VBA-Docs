@@ -1,12 +1,13 @@
 ---
-title: Object model (Word)
+title: Word object modelfor Visual Basic for Applications (VBA)
+description: This section of the Word VBA Reference contains documentation for all the objects, properties, methods, and events contained in the Word object model.
 ms.prod: word
 ms.assetid: be452561-b436-bb9b-6f94-3faa9a74a6fd
 ms.date: 06/08/2017
 ---
 
 
-# Object model (Word)
+# Object model (Word) 
 
 This section of the Word VBA Reference contains documentation for all the objects, properties, methods, and events contained in the Word object model.
 

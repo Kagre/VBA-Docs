@@ -11,7 +11,7 @@ ms.date: 06/08/2017
 
 # A procedure with a ParamArray argument cannot be called with named arguments
 
-All [arguments](../../Glossary/vbe-glossary.md#argument) in a call to a[procedure](../../Glossary/vbe-glossary.md#procedure) defined with a **ParamArray** must be positional. This error has the following cause and solution:
+All [arguments](../../Glossary/vbe-glossary.md#argument) in a call to a [procedure](../../Glossary/vbe-glossary.md#procedure) defined with a **ParamArray** must be positional. This error has the following cause and solution:
 
 
 - [Named-argument](../../Glossary/vbe-glossary.md#named-argument) syntax appears in a procedure call.

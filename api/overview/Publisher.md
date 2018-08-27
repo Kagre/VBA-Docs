@@ -1,3 +1,9 @@
+---
+title: Publisher Visual Basic for Applications (VBA) reference
+ms.prod: publisher
+description: Conceptual overviews, programming tasks, samples, and references to help you develop Publisher solutions.
+ms.date: 08/24/2018
+---
 
 # Publisher VBA reference
 
