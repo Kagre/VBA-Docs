@@ -15,4 +15,4 @@ Returns a [String](../../Glossary/vbe-glossary.md#string-data-type) containing t
 
 ## Remarks
 
-The  **Version** property value is a string beginning with one or two digits, a period, and two digits; the rest of the string is undefined and may contain text or numbers.
+The **Version** property value is a string beginning with one or two digits, a period, and two digits; the rest of the string is undefined and may contain text or numbers.

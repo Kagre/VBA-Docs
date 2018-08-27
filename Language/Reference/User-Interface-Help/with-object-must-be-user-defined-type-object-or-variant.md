@@ -18,4 +18,3 @@ The **With...End With** block can't be used with all [variable](../../Glossary/v
 Check to see if you misspelled the name of the object, user-defined type, or **Variant** variable.
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
-

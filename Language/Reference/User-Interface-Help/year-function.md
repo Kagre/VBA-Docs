@@ -16,6 +16,7 @@ Returns a **Variant** (**Integer**) containing a whole number representing the y
 ## Syntax
 
 **Year(**_date_**)**
+
 The required _date_ [argument](../../Glossary/vbe-glossary.md#argument) is any [Variant](../../Glossary/vbe-glossary.md#variant-data-type), [numeric expression](../../Glossary/vbe-glossary.md#numeric-expression), [string expression](../../Glossary/vbe-glossary.md#string-expression), or any combination, that can represent a date. If _date_ contains [Null](../../Glossary/vbe-glossary.md#null), **Null** is returned.
 
 > ![Note](../../../images/note.gif) **Note**

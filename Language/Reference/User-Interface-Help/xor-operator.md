@@ -17,7 +17,7 @@ Used to perform a logical exclusion on two [expressions](../../Glossary/vbe-glos
 
 [ _result_**=** ] _expression1_ **Xor** _expression2_
 
-The  **Xor** operator syntax has these parts:
+The **Xor** operator syntax has these parts:
 
 |**Part**|**Description**|
 |:-----|:-----|

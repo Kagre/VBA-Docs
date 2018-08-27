@@ -32,9 +32,8 @@ If you omit _outputlist_ and include a comma after _filenumber_, a blank line is
 
 When **Write #** is used to write data to a file, several universal assumptions are followed so the data can always be read and correctly interpreted using **Input #**, regardless of [locale](../../Glossary/vbe-glossary.md#locale):
 
-
 - Numeric data is always written using the period as the decimal separator.
-    
+
 - For [Boolean](../../Glossary/vbe-glossary.md#boolean-data-type) data, either `#TRUE#` or `#FALSE#` is printed. The **True** and **False**[keywords](../../Glossary/vbe-glossary.md#keyword) are not translated, regardless of locale.
 
 - [Date](../../Glossary/vbe-glossary.md#date-data-type) data is written to the file using the[universal date format](../../Glossary/vbe-glossary.md#universal-date-format). When either the date or the time component is missing or zero, only the part provided gets written to the file.
@@ -50,27 +49,26 @@ Unlike the **Print #** statement, the **Write #** statement inserts commas betwe
 > ![Note](../../../images/note.gif) **Note**
 > You should not write strings that contain embedded quotation marks, for example, `"1,2""X"` for use with the **Input #** statement: **Input #** parses this string as two complete and separate strings.
 
-
 ## Example
 
 This example uses the **Write #** statement to write raw data to a sequential file.
 
 ```vb
-Open "TESTFILE" For Output As #1    ' Open file for output. 
-Write #1, "Hello World", 234    ' Write comma-delimited data. 
-Write #1,    ' Write blank line. 
- 
-Dim MyBool, MyDate, MyNull, MyError 
-' Assign Boolean, Date, Null, and Error values. 
-MyBool = False : MyDate = #February 12, 1969# : MyNull = Null 
-MyError = CVErr(32767) 
-' Boolean data is written as #TRUE# or #FALSE#. Date literals are  
-' written in universal date format, for example, #1994-07-13#  
- 'represents July 13, 1994. Null data is written as #NULL#.  
-' Error data is written as #ERROR errorcode#. 
-Write #1, MyBool ; " is a Boolean value" 
-Write #1, MyDate ; " is a date" 
-Write #1, MyNull ; " is a null value" 
-Write #1, MyError ; " is an error value" 
-Close #1    ' Close file. 
+Open "TESTFILE" For Output As #1    ' Open file for output.
+Write #1, "Hello World", 234    ' Write comma-delimited data.
+Write #1,    ' Write blank line.
+
+Dim MyBool, MyDate, MyNull, MyError
+' Assign Boolean, Date, Null, and Error values.
+MyBool = False : MyDate = #February 12, 1969# : MyNull = Null
+MyError = CVErr(32767)
+' Boolean data is written as #TRUE# or #FALSE#. Date literals are
+' written in universal date format, for example, #1994-07-13#
+ 'represents July 13, 1994. Null data is written as #NULL#.
+' Error data is written as #ERROR errorcode#.
+Write #1, MyBool ; " is a Boolean value"
+Write #1, MyDate ; " is a date"
+Write #1, MyNull ; " is a null value"
+Write #1, MyError ; " is an error value"
+Close #1    ' Close file.
 ```
