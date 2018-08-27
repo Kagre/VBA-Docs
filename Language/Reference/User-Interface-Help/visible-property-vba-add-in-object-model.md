@@ -11,15 +11,13 @@ ms.date: 06/08/2017
 
 # Visible Property (VBA Add-In Object Model)
 
+For the **Window** object, returns or sets a [Boolean](../../Glossary/vbe-glossary.md#boolean-data-type) value that specifies the visibility of a window. Read/write. For the **CodePane** object, returns a **Boolean** value that indicates whether or not the [code pane](../../Glossary/vbe-glossary.md#code-pane) is visible in the window. Read-only.
 
+**Return Values**
 
-For the  **Window** object, returns or sets a[Boolean](../../Glossary/vbe-glossary.md#boolean-data-type) value that specifies the visibility of a window. Read/write. For the **CodePane** object, returns a **Boolean** value that indicates whether or not the[code pane](../../Glossary/vbe-glossary.md#code-pane) is visible in the window. Read-only.
- **Return Values**
 The  **Visible** property returns the following values:
-
 
 |**Value**|**Description**|
 |:-----|:-----|
 |**True**|(Default) Object is visible.|
 |**False**|Object is hidden.|
-

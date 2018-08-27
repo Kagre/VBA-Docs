@@ -1,3 +1,9 @@
+---
+title: Excel Visual Basic for Applications (VBA) reference
+ms.prod: excel
+description: Conceptual overviews, programming tasks, samples, and references to help you develop Excel solutions.
+ms.date: 08/24/2018
+---
 
 # Excel VBA reference
 

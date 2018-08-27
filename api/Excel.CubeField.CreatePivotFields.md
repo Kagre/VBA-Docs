@@ -37,11 +37,7 @@ Sub FilterFieldBeforeAddingItToPivotTable()
  
  ActiveSheet.PivotTables("PivotTable1").PivotFields("[Date].[Fiscal].[Fiscal Year]").VisibleItemsList = 
  
- Array("[Date].[Fiscal].[Fiscal Year].&[2003]", "[Date].[Fiscal].[Fiscal Year].&[2004]", "[Date].[Fiscal].[Fiscal Year].&[2005]") 
- 
- ActiveSheet.PivotTables("PivotTable1").PivotFields( _ 
  "[Date].[Fiscal].[Fiscal Semester]").VisibleItemsList = Array("") 
- 
  ActiveSheet.PivotTables("PivotTable1").PivotFields( _ 
  "[Date].[Fiscal].[Fiscal Quarter]").VisibleItemsList = Array("") 
  

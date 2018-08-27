@@ -11,11 +11,6 @@ ms.date: 06/08/2017
 
 # Can't perform operation because the project is protected
 
-When a [project](../../Glossary/vbe-glossary.md#project) is protected, certain actions are prohibited. This error has the following cause and solution:
-
-
-
-- The project was inadvertently protected. Remove the protection, and then try the action again.
     
 - The project was intentionally protected. Don't attempt the action until the protection is removed by the person that applied it in the first place.
     

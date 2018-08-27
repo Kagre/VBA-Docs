@@ -35923,7 +35923,6 @@
 ##### [Visible Property (Microsoft Forms)](../Language/Reference/User-Interface-Help/visible-property-microsoft-forms.md)
 ##### [Visible Property (VBA Add-In Object Model)](../Language/Reference/User-Interface-Help/visible-property-vba-add-in-object-model.md)
 ##### [Visual Basic add-in model reference](../Language/Reference/User-Interface-Help/visual-basic-add-in-model-reference.md)
-##### [Visual Basic can't load 'item' because it is not in the system registry. Please ensure that all add-ins have been installed correctly.](../Language/Reference/User-Interface-Help/visual-basic-can-t-load-item-because-it-is-not-in-the-system-registry-please-ens.md)
 ##### [Visual Basic conceptual topics](../Language/Reference/User-Interface-Help/visual-basic-conceptual-topics.md)
 ##### [Visual Basic Constants](../Language/Reference/User-Interface-Help/visual-basic-constants.md)
 ##### [Visual Basic definitions](../Language/Reference/User-Interface-Help/visual-basic-definitions.md)
@@ -35983,8 +35982,8 @@
 ##### [ZOrder Method](../Language/Reference/User-Interface-Help/zorder-method.md)
 ##### [ZOrder Method, TextBox Control Example](../Language/Reference/User-Interface-Help/zorder-method-textbox-control-example.md)
 ### Glossary
-#### [VBA Glossary](../Language/Glossary/glossary-vba.md#vba-glossary)
-#### [VBE Glossary](../Language/Glossary/vbe-glossary.md#vbe-glossary)
+#### [VBA Glossary](../Language/Glossary/glossary-vba.md)
+#### [VBE Glossary](../Language/Glossary/vbe-glossary.md)
 ## [Library Reference](./overview/Library-Reference.md)
 ### Concepts
 #### [Getting Started with VBA in Office](../Library-Reference/Concepts/getting-started-with-vba-in-office.md)

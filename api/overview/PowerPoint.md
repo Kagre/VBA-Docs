@@ -1,3 +1,9 @@
+---
+title: PowerPoint Visual Basic for Applications (VBA) reference
+ms.prod: powerpoint
+description: Conceptual overviews, programming tasks, samples, and references to help you develop PowerPoint solutions.
+ms.date: 08/24/2018
+---
 
 # PowerPoint VBA reference
 

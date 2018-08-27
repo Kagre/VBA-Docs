@@ -13,14 +13,14 @@ ms.date: 08/24/2018
 
 # Worksheet.Range Property (Excel)
 
-Returns a  **[Range](Excel.Range(object).md)** object that represents a cell or a range of cells.
+Returns a **[Range](Excel.Range(object).md)** object that represents a cell or a range of cells.
 
 
 ## Syntax
 
  _expression_. `Range`( `_Cell1_` , `_Cell2_` )
 
- _expression_ A variable that represents a [Worksheet](./Excel.Worksheet.md) object.
+ _expression_ A variable that represents a [Worksheet](Excel.Worksheet.md) object.
 
 
 ### Parameters
@@ -42,7 +42,7 @@ _Cell1_ and _Cell2_ can be A1-style references in the language of the macro. The
 
 When used without an object qualifier, this property is a shortcut for  `ActiveSheet.Range` (it returns a range from the active sheet; if the active sheet isn?t a worksheet, the property fails).
 
-When applied to a  **Range** object, the property is relative to the **Range** object. For example, if the selection is cell C3, then `Selection.Range("B1")` returns cell D3 because it is relative to the **Range** object returned by the **Selection** property. On the other hand, the code `ActiveSheet.Range("B1")` always returns cell B1.
+When applied to a **Range** object, the property is relative to the **Range** object. For example, if the selection is cell C3, then `Selection.Range("B1")` returns cell D3 because it is relative to the **Range** object returned by the **Selection** property. On the other hand, the code `ActiveSheet.Range("B1")` always returns cell B1.
 
 
 ## Examples
@@ -85,7 +85,7 @@ Next c
 MsgBox "There are " & numBlanks & " empty cells in this range"
 ```
 
-This example sets the font style in cells A1:C5 on Sheet1 to italic. The example uses Syntax 2 of the  **Range** property.
+This example sets the font style in cells A1:C5 on Sheet1 to italic. The example uses Syntax 2 of the **Range** property.
 
 
 ```vb
@@ -94,8 +94,9 @@ Worksheets("Sheet1").Range(Cells(1, 1), Cells(5, 3)). _
 
 ```
 
-This example compares the **Worksheet.Range** property, **[Application.Union](application-union-method-excel.md)** method, and **[Application.Intersect](application-intersect-method-excel.md)** method.
- ```vb
+This example compares the **Worksheet.Range** property, **[Application.Union](Excel.Application.Union.md)** method, and **[Application.Intersect](Excel.Application.Intersect.md)** method.
+
+```vb
 Range("A1:A10").Select                            'Selects cells A1 to A10.
 Range(Range("A1"), Range("A10")).Select           'Selects cells A1 to A10.
  Range("A1, A10").Select                           'Selects cells A1 and A10.
@@ -107,6 +108,5 @@ Intersect(Range("A1:A5"), Range("A5:A10")).Select 'Selects cell A5.
 
 ## See also
 
-
-[Worksheet Object](Excel.Worksheet.md)
+- [Worksheet Object](Excel.Worksheet.md)
 

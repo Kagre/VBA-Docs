@@ -70,12 +70,8 @@ The  _arglist_ argument has the following syntax and parts:
 
 ## Remarks
 
-For  **Function** procedures, the data type of the procedure determines the data type it returns. You can use an **As** clause following _arglist_ to specify the return type of the function. Within _arglist_, you can use an **As** clause to specify the data type of any of the arguments passed to the procedure. In addition to specifying any of the standard data types, you can specify **As Any** in _arglist_ to inhibit type checking and allow any data type to be passed to the procedure.
-Empty parentheses indicate that the  **Sub** or **Function** procedure has no arguments and that Visual Basic should ensure that none are passed. In the following example, `First` takes no arguments. If you use arguments in a call to takes no arguments. If you use arguments in a call to `First`, an error occurs:
 
 
-
-```vb
 Declare Sub First Lib "MyLib" () 
 
 ```
